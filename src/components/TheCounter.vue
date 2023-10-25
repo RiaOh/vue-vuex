@@ -9,7 +9,8 @@ export default {
     // counter() {
     // return this.$store.state.counter * 2;
     // return this.$store.getters.finalCounter;
-    ...mapGetters(['finalCounter']),
+    // ...mapGetters(['finalCounter']),
+    ...mapGetters('numbers', ['finalCounter']),
     // },
   },
 };
